@@ -1,0 +1,42 @@
+.markdown-content {
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+  margin: 1.5rem 0 1rem;
+  color: var(--text-color);
+}
+
+.markdown-content p {
+  margin: 1rem 0;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+.markdown-content code {
+  background-color: #f1f5f9;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+}
+
+.markdown-content pre {
+  background-color: #f8fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.markdown-content pre code {
+  background-color: transparent;
+  padding: 0;
+}
